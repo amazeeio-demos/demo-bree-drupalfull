@@ -31,7 +31,7 @@ To see similar projects with additional services, please visit https://github.co
 1. Checkout this project repo and confirm the path is in Docker's file sharing config - https://docs.docker.com/docker-for-mac/#file-sharing
 
     ```bash
-    git clone https://github.com/amazeeio-sales/demo-bree-drupalfull.git demo-bree-drupalfull && cd $_
+    git clone https://github.com/amazeeio-demos/demo-bree-drupalfull.git demo-bree-drupalfull && cd $_
     ```
 
 2. Make sure you don't have anything running on port 80 on the host machine (like a web server) then run `pygmy up`
@@ -57,7 +57,7 @@ This repository is set up with a `.lando.yml` file, which allows you to use Land
 2. Checkout the project repo and confirm the path is in Docker's file sharing config - https://docs.docker.com/docker-for-mac/#file-sharing
 
     ```bash
-    git clone https://github.com/amazeeio-sales/demo-bree-drupalfull.git demo-bree-drupalfull && cd $_
+    git clone https://github.com/amazeeio-demos/demo-bree-drupalfull.git demo-bree-drupalfull && cd $_
     ```
 
 3. Make sure you have pygmy-go stopped. Run `pygmy stop` to be sure.
